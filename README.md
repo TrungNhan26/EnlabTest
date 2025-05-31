@@ -1,7 +1,7 @@
 # EnlabTest - Quiz Application API
 
 ## Giới thiệu
-EnlabTest là một ứng dụng API dành cho hệ thống quiz trắc nghiệm, cung cấp các chức năng như lấy danh sách câu hỏi, kiểm tra đáp án của người dùng, và tính điểm & kết quả cuối cùng của bài quiz.
+API Quiz test
 
 ---
 
@@ -31,7 +31,7 @@ cd EnlabTest
 
 3. Cấu hình chuỗi kết nối CSDL trong appsettings.json
 "ConnectionStrings": {
-  "DefaultConnection": "server=localhost;database=enlabtest;user=root;password=yourpassword;"
+  "DefaultConnection": "server=localhost;database=quizdb;user=root;password=yourpassword;"
 }
 
 4. Cài đặt các package (nếu dùng Visual Studio thì restore tự động):
